@@ -46,7 +46,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/pstar/proprietary/vendor/firmware/st21nfc_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/st21nfc_fw.bin \
     vendor/motorola/pstar/proprietary/vendor/firmware/st21nfc_fw7.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/st21nfc_fw7.bin \
     vendor/motorola/pstar/proprietary/vendor/firmware/stmicro-csot-fts3639-21120227-de141027-pstar.ftb:$(TARGET_COPY_OUT_VENDOR)/firmware/stmicro-csot-fts3639-21120227-de141027-pstar.ftb \
+    vendor/motorola/pstar/proprietary/vendor_ramdisk/lib/firmware/stmicro-csot-fts3639-21120227-de141027-pstar.ftb:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/lib/firmware/stmicro-csot-fts3639-21120227-de141027-pstar.ftb \
     vendor/motorola/pstar/proprietary/vendor/firmware/stmicro-visionox-fts3639-21072312-0009200c-pstar.ftb:$(TARGET_COPY_OUT_VENDOR)/firmware/stmicro-visionox-fts3639-21072312-0009200c-pstar.ftb \
+    vendor/motorola/pstar/proprietary/vendor_ramdisk/lib/firmware/stmicro-visionox-fts3639-21072312-0009200c-pstar.ftb:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/lib/firmware/stmicro-visionox-fts3639-21072312-0009200c-pstar.ftb \
     vendor/motorola/pstar/proprietary/vendor/lib/libcamxexternalformatutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxexternalformatutils.so \
     vendor/motorola/pstar/proprietary/vendor/lib/rfsa/adsp/libdsp_streamer_qvrcam_receiver.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libdsp_streamer_qvrcam_receiver.so \
     vendor/motorola/pstar/proprietary/vendor/lib64/camera/com.mot.eeprom.mot_gt24p64b_ov16a1q_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.mot.eeprom.mot_gt24p64b_ov16a1q_eeprom.so \
