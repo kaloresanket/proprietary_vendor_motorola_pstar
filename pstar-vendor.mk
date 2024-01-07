@@ -37,11 +37,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/pstar/proprietary/vendor/etc/sensors/proto/sns_formatter_notify.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_formatter_notify.proto \
     vendor/motorola/pstar/proprietary/vendor/etc/thermal-engine-pstar.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-pstar.conf \
     vendor/motorola/pstar/proprietary/vendor/firmware/CAMERA_ICP.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.elf \
-    vendor/motorola/pstar/proprietary/vendor/firmware/aw8695_haptic.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8695_haptic.bin \
-    vendor/motorola/pstar/proprietary/vendor/firmware/aw8695_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8695_rtp.bin \
-    vendor/motorola/pstar/proprietary/vendor/firmware/aw882xx_mono.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw882xx_mono.bin \
-    vendor/motorola/pstar/proprietary/vendor/firmware/aw882xx_rcv_reg.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw882xx_rcv_reg.bin \
-    vendor/motorola/pstar/proprietary/vendor/firmware/aw882xx_spk_reg.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw882xx_spk_reg.bin \
     vendor/motorola/pstar/proprietary/vendor/firmware/mot_dw9781c.prog:$(TARGET_COPY_OUT_VENDOR)/firmware/mot_dw9781c.prog \
     vendor/motorola/pstar/proprietary/vendor/firmware/st21nfc_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/st21nfc_fw.bin \
     vendor/motorola/pstar/proprietary/vendor/firmware/st21nfc_fw7.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/st21nfc_fw7.bin \
