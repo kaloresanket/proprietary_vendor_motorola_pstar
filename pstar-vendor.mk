@@ -6,6 +6,14 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/motorola/pstar
 
 PRODUCT_COPY_FILES += \
+    vendor/motorola/pstar/proprietary/vendor/etc/lvacfs_params/3mic/audiozoom_1.txt:$(TARGET_COPY_OUT_VENDOR)/etc/lvacfs_params/3mic/audiozoom_1.txt \
+    vendor/motorola/pstar/proprietary/vendor/etc/lvacfs_params/3mic/audiozoom_2.txt:$(TARGET_COPY_OUT_VENDOR)/etc/lvacfs_params/3mic/audiozoom_2.txt \
+    vendor/motorola/pstar/proprietary/vendor/etc/lvacfs_params/3mic/audiozoom_3.txt:$(TARGET_COPY_OUT_VENDOR)/etc/lvacfs_params/3mic/audiozoom_3.txt \
+    vendor/motorola/pstar/proprietary/vendor/etc/lvacfs_params/3mic/LVACFS_3mic_Calibration.dat:$(TARGET_COPY_OUT_VENDOR)/etc/lvacfs_params/3mic/LVACFS_3mic_Calibration.dat \
+    vendor/motorola/pstar/proprietary/vendor/etc/lvacfs_params/3mic/LVACFS_Configuration.txt:$(TARGET_COPY_OUT_VENDOR)/etc/lvacfs_params/3mic/LVACFS_Configuration.txt \
+    vendor/motorola/pstar/proprietary/vendor/etc/lvacfs_params/3mic/LVACFS_Parameter_3mic_1.txt:$(TARGET_COPY_OUT_VENDOR)/etc/lvacfs_params/3mic/LVACFS_Parameter_3mic_1.txt \
+    vendor/motorola/pstar/proprietary/vendor/etc/lvacfs_params/3mic/LVACFS_Parameter_3mic_2.txt:$(TARGET_COPY_OUT_VENDOR)/etc/lvacfs_params/3mic/LVACFS_Parameter_3mic_2.txt \
+    vendor/motorola/pstar/proprietary/vendor/etc/lvacfs_params/3mic/LVACFS_Parameter_3mic_1.txt:$(TARGET_COPY_OUT_VENDOR)/etc/lvacfs_params/3mic/LVACFS_Parameter_3mic_3.txt \
     vendor/motorola/pstar/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-goodixservice:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-goodixservice \
     vendor/motorola/pstar/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-fpc:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-fpc \
     vendor/motorola/pstar/proprietary/vendor/bin/fpc_ident:$(TARGET_COPY_OUT_VENDOR)/bin/fpc_ident \
